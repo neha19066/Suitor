@@ -1,7 +1,6 @@
-drop database Suitor;
-create database Suitor;
-use Suitor;
-
+drop database suitor;
+create database suitor;
+use suitor;
 CREATE TABLE `User` (
   `userID` char(10),
   `password` char(8),
