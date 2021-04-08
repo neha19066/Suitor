@@ -1,6 +1,7 @@
 drop database suitor;
-create database suitor;
-use suitor;
+create database Suitor;
+use Suitor;
+
 CREATE TABLE `User` (
   `userID` char(10),
   `password` char(8),
@@ -1774,7 +1775,7 @@ INSERT INTO `IndividualClients` (`userID`,`firstName`,`middleName`,`lastName`,`d
 INSERT INTO `IndividualClients` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`budget`,`emailID`,`phoneNumber`,`streetName`,`city`,`pincode`,`state`,`isClient`) VALUES ("I21f9d1v3S","Ciaran","Abraham","Clayton","1991-07-13",19718,"Fusce.fermentum.fermentum@aliquamarcuAliquam.ca","9580522458","Ap #346-6686 Imperdiet Avenue","Serang","Z6871","Banten",0);
 INSERT INTO `IndividualClients` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`budget`,`emailID`,`phoneNumber`,`streetName`,`city`,`pincode`,`state`,`isClient`) VALUES ("I21t0z0b6C","Quyn","Eagan","Hopkins","1988-07-08",3544,"mauris.sapien.cursus@utaliquam.co.uk","9930128017","9010 Lacus. Ave","Fayetteville","148063","Arkansas",1);
 INSERT INTO `IndividualClients` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`budget`,`emailID`,`phoneNumber`,`streetName`,`city`,`pincode`,`state`,`isClient`) VALUES ("I21k2i4s0M","Ulysses","Quentin","Klein","1990-10-31",18946,"non.hendrerit.id@tempor.ca","9111378002","Ap #880-5049 Fermentum Ave","Kurgan","1638","KGN",1);
-INSERT INTO `IndividualClients` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`budget`,`emailID`,`phoneNumber`,`streetName`,`city`,`pincode`,`state`,`isClient`) VALUES ("I21e5c5u5T","Emi","Hammett","Lopez","1994-01-21",10728,"aliquet@nequepellentesque.ca","9394510398","434-2795 Sed Rd.","Tehuacán","86767-18016","Puebla",0);
+INSERT INTO `IndividualClients` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`budget`,`emailID`,`phoneNumber`,`streetName`,`city`,`pincode`,`state`,`isClient`) VALUES ("I21e5c5u5T","Emi","Hammett","Lopez","1994-01-21",10728,"aliquet@nequepellentesque.ca","9394510398","434-2795 Sed Rd.","Tehuacán","8676718016","Puebla",0);
 INSERT INTO `IndividualClients` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`budget`,`emailID`,`phoneNumber`,`streetName`,`city`,`pincode`,`state`,`isClient`) VALUES ("I21h2l3h4T","Dana","Mona","Rivers","1986-09-17",18403,"orci.luctus@ipsumleoelementum.com","9670325904","7733 Donec Rd.","Soma","RU7 3WR","Manisa",0);
 INSERT INTO `IndividualClients` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`budget`,`emailID`,`phoneNumber`,`streetName`,`city`,`pincode`,`state`,`isClient`) VALUES ("I21w7w4s5D","Ronan","Quinlan","Swanson","1986-05-14",3665,"sagittis@dolor.edu","9108503017","340-749 Duis St.","Alcalá de Henares","983074","Madrid",0);
 INSERT INTO `IndividualClients` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`budget`,`emailID`,`phoneNumber`,`streetName`,`city`,`pincode`,`state`,`isClient`) VALUES ("I21q1o1x3V","Jared","Lamar","Wiley","1986-12-16",12442,"tincidunt.congue.turpis@feugiatnon.org","9982715121","225-5934 Aliquet. Av.","Dongducheon","404222","Gye",0);
@@ -1890,7 +1891,7 @@ INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`
 
 
 
-INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21k9e0m9D","Winifred","Carla","Holder","1990-03-20","Others",9026,46,91,10,11,"orci.luctus@nislelementum.ca","9672356748","Associate",87,"Ap #589-998 Dis St.","Hamburg","06694-27521","HH","Finance",8);
+INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21k9e0m9D","Winifred","Carla","Holder","1990-03-20","Others",9026,46,91,10,11,"orci.luctus@nislelementum.ca","9672356748","Associate",87,"Ap #589-998 Dis St.","Hamburg","0669427521","HH","Finance",8);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21x6i8r4X","Jordan","Cedric","Parker","1985-06-28","Male",3813,70,68,33,5,"scelerisque.neque@pharetra.com","9470449283","Lawyer",22,"Ap #576-305 Massa Av.","Cambridge","14-081","North Island","Whistleblower Litigation",9);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21b7y0r2S","Isabelle","Xerxes","Mays","1986-04-26","Female",18875,40,86,54,25,"neque.sed@loremipsum.org","9794117874","Paralegal",20,"727-8621 Sed, St.","Bydgoszcz","28130","Kujawsko-pomorskie","Copyrights and Patents",8);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21u5j4l6F","Theodore","Ann","Mason","1985-07-26","Male",6128,2,46,86,15,"dapibus.quam@libero.org","9810880450","Lawyer",48,"9209 Eget St.","Stonewall","17077","MB","Drug Crimes",2);
@@ -1898,7 +1899,7 @@ INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21n6o6k0N","Haviva","Alice","Carroll","1988-10-08","Female",17538,93,24,59,5,"vel.sapien@sociis.com","9323243487","Lawyer",80,"Ap #173-6440 A, Rd.","Sterling Heights","70500","Michigan","Wills and Probate",5);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21a0f5x5M","Sigourney","Talon","Houston","1990-04-14","Female",2839,5,2,27,9,"odio@auctornon.net","9481049928","Lawyer",82,"4460 Dictum Ave","Gary","09393","Indiana","Visitation Rights",8);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21h9m7x7T","Cairo","Britanni","Mcgee","1991-08-11","Others",7716,82,28,8,19,"mauris.sapien@Nam.ca","9694887749","Paralegal",52,"4226 Tincidunt Av.","Kalisz","5452 TF","Wielkopolskie","Wills and Probate",6);
-INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21s9n5a5A","Giselle","Astra","Hanson","1989-10-22","Male",19792,14,57,19,20,"vestibulum.lorem@ornarelibero.co.uk","9900412440","Paralegal",38,"P.O. Box 759, 6311 Arcu Avenue","Cirebon","64448-71126","West Java","LGBTQ Law",4);
+INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21s9n5a5A","Giselle","Astra","Hanson","1989-10-22","Male",19792,14,57,19,20,"vestibulum.lorem@ornarelibero.co.uk","9900412440","Paralegal",38,"P.O. Box 759, 6311 Arcu Avenue","Cirebon","6444871126","West Java","LGBTQ Law",4);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21v1p2x4V","Lucy","Paul","Howe","1987-06-13","Female",19828,96,62,96,9,"ultrices.sit.amet@Nullam.edu","9775318899","Associate",64,"Ap #476-3492 Consectetuer Street","San Rafael","B0B 4J4","A","Wrongful Death",6);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21q7h0u0E","Ivory","Ann","Fletcher","1988-01-25","Male",12875,3,9,87,13,"sem.eget.massa@nectempusmauris.org","9879571707","Associate",53,"Ap #826-9735 Ornare Rd.","Tongyeong","26265","South Gyeongsang","Finance",3);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21t0s5w9W","Fredericka","Eaton","Guy","1989-03-26","Others",10101,56,23,82,6,"nec.quam.Curabitur@sociosquadlitora.edu","9374138515","Associate",60,"207-8436 Ipsum St.","Galway","4498","Connacht","Whistleblower Litigation",6);
@@ -1968,11 +1969,7 @@ INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21u6a1c4F","Justine","Harding","Gilmore","1990-02-09","Male",9386,65,63,52,24,"porttitor.vulputate@augue.org","9944775582","Associate",60,"2790 Dolor. Avenue","Istanbul","89326","Istanbul","Construction Law",3);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21b3w5m9Q","Mona","Kevin","Abbott","1993-11-29","Female",2971,66,68,60,25,"vulputate.velit@pede.org","9142961813","Partner",82,"521-4828 Aenean St.","Vienna","15747","Vienna","Construction Law",10);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21z1d3m8Y","Ruby","Cole","Warner","1993-05-05","Others",3110,29,36,31,20,"egestas@nuncnullavulputate.edu","9187789966","Paralegal",96,"Ap #212-1115 Tincidunt. St.","Istanbul","54189","Istanbul","Construction Law",3);
-
-
-
-
-INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21k9e0m9D","Winifred","Carla","Holder","1990-03-20","Others",9026,46,91,10,11,"orci.luctus@nislelementum.ca","9672356748","Associate",87,"Ap #589-998 Dis St.","Hamburg","06694-27521","HH","Finance and Banking",8);
+INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21k9e0m9D","Winifred","Carla","Holder","1990-03-20","Others",9026,46,91,10,11,"orci.luctus@nislelementum.ca","9672356748","Associate",87,"Ap #589-998 Dis St.","Hamburg","066927521","HH","Finance and Banking",8);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21x6i8r4X","Jordan","Cedric","Parker","1985-06-28","Male",3813,70,68,33,5,"scelerisque.neque@pharetra.com","9470449283","Lawyer",22,"Ap #576-305 Massa Av.","Cambridge","14-081","North Island","Buisness Law",9);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21b7y0r2S","Isabelle","Xerxes","Mays","1986-04-26","Female",18875,40,86,54,25,"neque.sed@loremipsum.org","9794117874","Paralegal",20,"727-8621 Sed, St.","Bydgoszcz","28130","Kujawsko-pomorskie","Closer",8);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21u5j4l6F","Theodore","Ann","Mason","1985-07-26","Male",6128,2,46,86,15,"dapibus.quam@libero.org","9810880450","Lawyer",48,"9209 Eget St.","Stonewall","17077","MB","Buisness Law",2);
@@ -1980,11 +1977,11 @@ INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21n6o6k0N","Haviva","Alice","Carroll","1988-10-08","Female",17538,93,24,59,5,"vel.sapien@sociis.com","9323243487","Lawyer",80,"Ap #173-6440 A, Rd.","Sterling Heights","70500","Michigan","WillsProbate",5);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21a0f5x5M","Sigourney","Talon","Houston","1990-04-14","Female",2839,5,2,27,9,"odio@auctornon.net","9481049928","Lawyer",82,"4460 Dictum Ave","Gary","09393","Indiana","VisitationRights",8);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21h9m7x7T","Cairo","Britanni","Mcgee","1991-08-11","Others",7716,82,28,8,19,"mauris.sapien@Nam.ca","9694887749","Paralegal",52,"4226 Tincidunt Av.","Kalisz","5452 TF","Wielkopolskie","Finances",6);
-INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21s9n5a5A","Giselle","Astra","Hanson","1989-10-22","Male",19792,14,57,19,20,"vestibulum.lorem@ornarelibero.co.uk","9900412440","Paralegal",38,"P.O. Box 759, 6311 Arcu Avenue","Cirebon","64448-71126","West Java","Banking",4);
+INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21s9n5a5A","Giselle","Astra","Hanson","1989-10-22","Male",19792,14,57,19,20,"vestibulum.lorem@ornarelibero.co.uk","9900412440","Paralegal",38,"P.O. Box 759, 6311 Arcu Avenue","Cirebon","644471126","West Java","Banking",4);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21v1p2x4V","Lucy","Paul","Howe","1987-06-13","Female",19828,96,62,96,9,"ultrices.sit.amet@Nullam.edu","9775318899","Associate",64,"Ap #476-3492 Consectetuer Street","San Rafael","B0B 4J4","A","Drug Crime",6);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21q7h0u0E","Ivory","Ann","Fletcher","1988-01-25","Male",12875,3,9,87,13,"sem.eget.massa@nectempusmauris.org","9879571707","Associate",53,"Ap #826-9735 Ornare Rd.","Tongyeong","26265","South Gyeongsang","Finance and Banking",3);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21t0s5w9W","Fredericka","Eaton","Guy","1989-03-26","Others",10101,56,23,82,6,"nec.quam.Curabitur@sociosquadlitora.edu","9374138515","Associate",60,"207-8436 Ipsum St.","Galway","4498","Connacht","Closer",6);
-INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21c9u5e3I","Keefe","Carla","Gray","1987-04-06","Female",13098,46,90,35,3,"consectetuer@Seddiam.ca","9524534655","Paralegal",34,"7307 Vitae Ave","Swan Hill","12770-01231","VIC","Drug Crimes",1);
+INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21c9u5e3I","Keefe","Carla","Gray","1987-04-06","Female",13098,46,90,35,3,"consectetuer@Seddiam.ca","9524534655","Paralegal",34,"7307 Vitae Ave","Swan Hill","1277001231","VIC","Drug Crimes",1);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21m3s3v7H","Hammett","Aiko","Howe","1991-11-20","Male",7458,59,71,73,25,"faucibus.orci@mollisDuis.co.uk","9857759360","Associate",30,"455-8498 Posuere Rd.","Bandırma","2017","Balıkesir","Buisness Law",9);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21n2c2u6B","Dorothy","Aiko","Sawyer","1987-10-20","Others",11091,74,44,89,9,"vestibulum.neque@noncursus.net","9310203381","Partner",80,"444-2610 Porttitor Ave","Moircy","91758","LX","Finance and Banking",5);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21e0f5s5Z","Maryam","Raymond","Stephenson","1990-02-07","Others",19168,92,81,45,20,"ornare.placerat@lacusUtnec.com","9359518083","Paralegal",51,"P.O. Box 604, 3545 Mauris Rd.","Antakya","105151","Hatay","Labour and Employment",2);
@@ -2053,10 +2050,10 @@ INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21e4g0t3P","Chava","Keith","Castillo","1986-02-15","Female",7262,4,10,66,18,"ut.nisi@nec.edu","9863492311","Associate",91,"P.O. Box 679, 5477 Varius Av.","Tehuacán","149836","Pue","LGBTQ Law",7);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21q4u5j5R","Jack","Keely","Sears","1987-10-27","Others",14433,47,67,68,2,"nec.euismod.in@dolorsit.co.uk","9121889767","Partner",46,"260-3723 At Ave","Hapur","15094","UP","Income Tax",3);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21v9l9b5R","Octavius","Ivor","Fuentes","1985-11-17","Others",4661,45,9,20,12,"montes.nascetur@magnaPhasellusdolor.ca","9567051880","Associate",69,"Ap #567-7985 Tellus St.","Zaragoza","57951","AR","Finance",9);
-INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21f3z4r8N","Nero","Ella","Tucker","1989-06-04","Others",5150,4,33,68,20,"odio.vel.est@sem.org","9346487878","Paralegal",76,"Ap #750-9396 Est. Ave","Sacheon","00922-43408","Gye","Traffic Law",10);
+INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21f3z4r8N","Nero","Ella","Tucker","1989-06-04","Others",5150,4,33,68,20,"odio.vel.est@sem.org","9346487878","Paralegal",76,"Ap #750-9396 Est. Ave","Sacheon","0092243408","Gye","Traffic Law",10);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21a4v0i1Q","Ulric","Noble","Lewis","1992-12-31","Female",7814,73,19,27,3,"lectus@laciniaSed.com","9805884788","Paralegal",70,"785-5022 Et Av.","Wałbrzych","68616","Dolnośląskie","Wills and Probate",3);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21y6i1e7R","Iliana","Judith","Bentley","1988-10-29","Female",11093,27,1,61,4,"mollis@nullavulputatedui.ca","9197387544","Paralegal",23,"644-2146 Curabitur St.","Boo","99-804","AB","Politics",5);
-INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21e8f7u0L","Lawrence","Griffin","Graves","1987-12-12","Female",5066,79,7,32,23,"enim@Phasellusdolorelit.net","9483480174","Paralegal",66,"7213 Dui Ave","Ucluelet","62556-47410","British Columbia","Copyrights and Patents",5);
+INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21e8f7u0L","Lawrence","Griffin","Graves","1987-12-12","Female",5066,79,7,32,23,"enim@Phasellusdolorelit.net","9483480174","Paralegal",66,"7213 Dui Ave","Ucluelet","6255647410","British Columbia","Copyrights and Patents",5);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21c6b7c7Y","Bo","Kane","Mcfadden","1986-04-25","Others",2731,57,82,30,11,"leo.in@nascetur.org","9217742631","Associate",82,"2667 Erat. St.","Turbo","9046","Antioquia","Tenant Law",1);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21e6a6z1Q","Lila","Felix","Downs","1991-06-20","Others",19212,85,65,10,19,"ut.nulla.Cras@Fuscediam.edu","9635246595","Partner",70,"Ap #935-2195 Imperdiet Ave","Mandi Bahauddin","7907","Sindh","Finance",8);
 INSERT INTO `Lawyer` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`charges`,`casesWon`,`casesLost`,`casesSettled`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`avgTimePerCase`,`streetName`,`city`,`pincode`,`state`,`specialization`,`clientRating`) VALUES ("A21u3y0f3W","Ingrid","Raphael","Terrell","1990-12-19","Others",16454,45,99,39,10,"tellus.Nunc.lectus@urnaUttincidunt.org","9169090905","Associate",21,"8329 Fringilla Rd.","North Shore","597668","North Island","Harrasement",5);
@@ -2195,7 +2192,7 @@ INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBi
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21a0b2d6K","Keely","Duncan","Moody","1986-05-01","Female",18547,20,"dictum.magna.Ut@Nulla.net","9490378505","Support Staff","P.O. Box 631, 8421 In Road","Itagüí","76642","Antioquia");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21w4h7v7O","Caryn","Mari","Rodriquez","1988-08-29","Others",19832,16,"amet@nibhenim.org","9794401646","Support Staff","867-1919 Ante St.","Zuienkerke","NF0R 4SM","WV");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21f4d0v9S","Ann","Leah","Burke","1993-03-18","Female",11688,3,"neque.vitae@montesnascetur.com","9822391230","HR","P.O. Box 851, 932 Sodales. Av.","Qambar Shahdadkot","85324","SI");
-INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21w7j6x0W","Mariam","Vera","Mcclure","1985-08-16","Others",17703,17,"Vivamus.molestie@enim.org","9771378279","Support Staff","3764 Sed, St.","Suruç","99166-22493","Şan");
+INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21w7j6x0W","Mariam","Vera","Mcclure","1985-08-16","Others",17703,17,"Vivamus.molestie@enim.org","9771378279","Support Staff","3764 Sed, St.","Suruç","9916622493","Şan");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21h2a5d0O","Phelan","Noah","Quinn","1991-04-14","Others",8523,20,"commodo.ipsum.Suspendisse@urnajusto.ca","9955231512","Support Staff","P.O. Box 412, 5705 Nec St.","Béthune","845823","Nord-Pas-de-Calais");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21n3s6j3T","Shelley","Quamar","Ortega","1986-08-13","Others",5816,24,"Mauris.eu.turpis@metusvitae.net","9929172972","HR","P.O. Box 648, 4973 Non, St.","Dordrecht","33030","Zuid Holland");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21s8l2h5B","Brady","Sara","Gregory","1988-12-16","Female",18438,12,"eu.dolor@elementum.org","9527604744","IT","P.O. Box 589, 9696 Sed Rd.","Berlin","9651","Berlin");
@@ -2218,7 +2215,7 @@ INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBi
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21p5d4e7K","Lana","Zorita","Brown","1985-12-31","Others",9826,2,"nec.ante@faucibusMorbi.com","9549660275","Support Staff","P.O. Box 283, 7046 Est. Street","Flushing","4622","Zeeland");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21r1m3c3W","Hasad","Mark","Cherry","1990-05-17","Female",8364,21,"ac@euultricessit.edu","9315034631","IT","396-5864 Pharetra, Av.","Diamer","006805","GB");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21b8m5o5E","Gil","Steel","Hansen","1987-11-25","Male",5868,9,"sed@nuncest.org","9008188087","IT","1622 Mauris Av.","Paine","PZ02 0FI","Metropolitana de Santiago");
-INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21q1q9n8K","TaShya","Len","Richardson","1993-11-22","Male",10043,20,"lorem.luctus.ut@at.ca","9664718513","Support Staff","Ap #452-9823 Sit Av.","Faisalabad","00683-71349","Punjab");
+INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21q1q9n8K","TaShya","Len","Richardson","1993-11-22","Male",10043,20,"lorem.luctus.ut@at.ca","9664718513","Support Staff","Ap #452-9823 Sit Av.","Faisalabad","0068371349","Punjab");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21n9t7q9A","Vaughan","Yoshi","Pratt","1988-01-18","Male",4396,20,"Nullam@atliberoMorbi.edu","9413318209","Support Staff","4619 Tincidunt Rd.","Galway","5128","C");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21v7n7v2K","Castor","Macon","Albert","1993-04-19","Female",14910,1,"Etiam.imperdiet@Suspendissealiquet.ca","9181098694","IT","P.O. Box 435, 7157 Libero Road","Palmerston North","79-162","North Island");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21x0t2l7J","Breanna","Ashton","Weeks","1990-05-24","Female",11618,17,"Nulla.tincidunt.neque@necorci.ca","9929928158","Support Staff","Ap #518-7270 Faucibus. Rd.","Mount Gambier","273263","South Australia");
@@ -2228,7 +2225,7 @@ INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBi
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21i2c9d7A","Halee","Bo","Walsh","1986-01-05","Female",19544,25,"odio.Aliquam@dolorsit.com","9630593342","HR","1177 Augue Street","Awka","91338-079","Anambra");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21t4p5f6V","Clare","Quin","Macdonald","1986-02-19","Male",10668,19,"vestibulum.massa.rutrum@orcilacus.net","9601282774","Support Staff","959-529 Cursus Road","San Nicolás","328930","VII");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21j6c6y3S","Neve","Jescie","Hayes","1987-07-24","Female",5350,10,"aliquam@cursus.edu","9865102774","IT","677-8132 Praesent Rd.","San Pedro de Atacama","63294","II");
-INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21z4n3d9R","Ross","Iona","Barnes","1993-01-29","Male",14613,4,"consectetuer@augueidante.ca","9633845601","Finance and Accounting","435-8894 Dui. Ave","Sicuani","41524-22171","CUS");
+INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21z4n3d9R","Ross","Iona","Barnes","1993-01-29","Male",14613,4,"consectetuer@augueidante.ca","9633845601","Finance and Accounting","435-8894 Dui. Ave","Sicuani","4152422171","CUS");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21q9d9g4F","Gannon","Scarlet","Mccoy","1991-08-27","Others",9915,6,"rhoncus.id@magnis.edu","9867014764","Support Staff","Ap #276-2422 Velit. Road","Åkersberga","5935","Stockholms län");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21b7i0p5B","Vincent","Brandon","Rivas","1989-11-24","Others",6662,4,"purus@justositamet.co.uk","9925226977","IT","996-7395 Convallis Avenue","Sneek","584645","Fr");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21w9w1h9Q","Austin","Blythe","Wade","1987-08-24","Female",4907,23,"Donec.consectetuer.mauris@perconubia.net","9071355744","Support Staff","Ap #139-5823 Cursus. Ave","Vienna","10609","Wie");
@@ -2264,7 +2261,7 @@ INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBi
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21k9t9k6Z","Kaseem","Ray","Chambers","1993-01-24","Male",15966,6,"euismod.ac@acipsum.co.uk","9230378636","HR","Ap #293-9418 Proin Ave","Berlin","82817","Berlin");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21e9q0v2C","Barbara","Maxine","Hill","1985-10-10","Male",3550,1,"eu.accumsan.sed@sem.co.uk","9390962124","Support Staff","Ap #293-4194 Vel Ave","Parla","81092","MA");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21k8r2r6T","Josiah","Dara","Russell","1989-10-07","Male",8643,22,"mollis.Duis@mollis.net","9004681474","HR","495-8310 Id, Street","Łódź","11899","LD");
-INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21v3w1d8G","Evan","Melodie","Pratt","1993-06-09","Male",19810,20,"sem@Donectincidunt.co.uk","9235419068","HR","Ap #103-9718 Velit. St.","Lasbela","96668-74680","Balochistan");
+INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21v3w1d8G","Evan","Melodie","Pratt","1993-06-09","Male",19810,20,"sem@Donectincidunt.co.uk","9235419068","HR","Ap #103-9718 Velit. St.","Lasbela","9666874680","Balochistan");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21h1t2h9X","Byron","Grady","Thomas","1989-05-08","Male",2394,2,"imperdiet@a.edu","9989154493","IT","325-8389 Rhoncus. Rd.","Penza","08285","PNZ");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21m7b7y6G","Wallace","Keaton","Gill","1988-09-23","Others",2693,24,"vitae.sodales.at@mollislectuspede.net","9667673293","Support Staff","432-6244 Libero Rd.","Enschede","13870","Ov");
 INSERT INTO `OtherStaff` (`userID`,`firstName`,`middleName`,`lastName`,`dateOfBirth`,`gender`,`salary`,`experience`,`emailID`,`phoneNumber`,`positionAtFirm`,`streetName`,`city`,`pincode`,`state`) VALUES ("O21f1d3n8D","Gil","Mara","Obrien","1988-12-31","Male",6656,23,"adipiscing.Mauris@ullamcorpernislarcu.org","9118358424","Support Staff","Ap #705-8764 Donec St.","Poznań","8611 AZ","WP");
@@ -2877,38 +2874,138 @@ INSERT INTO `Makes` (`userID`,`transactionID`) VALUES ("I21d3y2f0U","Mv8x9K926h"
 INSERT INTO `Makes` (`userID`,`transactionID`) VALUES ("I21r6i4t5D","Mr4x2K333u");
 
 
+	 
+-- QUERIES 
+	 
+-- PARALEGAL
+-- 'A21s9n5a5A', 'Giselle', 'Astra', 'Hanson', '1989-10-22', 'Male', '19792', '14', '57', '19', '20', 'vestibulum.lorem@ornarelibero.co.uk', '9900412440', 'Paralegal', '38', 'P.O. Box 759, 6311 Arcu Avenue', 'Cirebon', '6444871126', 'West Java', 'LGBTQ Law', '4'
 
 
+-- 1. view their personal details
+CREATE OR REPLACE VIEW myDetails AS
+SELECT * FROM lawyer
+WHERE userID = "A21s9n5a5A";
+
+select * from myDetails;
+
+-- 2. view/add events
+CREATE OR REPLACE VIEW myEvents AS
+select * from calendar
+where userID = "A21s9n5a5A";
+
+select * from myEvents;
+
+-- 3. view all case details for all cases in the firm
+create or replace view allCases as 
+select h.caseID, c.plaintiff, c.lastDateOfActivity, c.flair, c.dateOfFiling, c.duration, c.status, ic.userID as ClientID, ic.firstName as CFirstName, ic.lastName as CLastName, ic.emailID as CEmailID, ic.isClient, ic.city as CCity, l.userID as LawyerID, l.firstName as LFirstName, l.lastName as LLastName, l.emailID as LEmailID, l.positionAtFirm, l.specialization, l.city as LCity, o.oppositionID, o.firstName as OFirstName, o.lastName as OLastName from lawyer l, handles h, legalcases c, hasa ch, individualclients ic, opposition o, against a
+where l.userID = h.userID and h.caseID = c.caseID and ch.userID = ic.userID and a.oppositionID = o.oppositionID and a.caseID = c.caseID;
+
+select * from allCases;
+
+-- 4. view/update allowed legal documents for all cases in the firm
+create or replace view allLegalDocs as 
+select d.docID, d.createdOn, d.dateLastModified, d.type, c.caseID, c.lastdateofactivity, c.flair, c.status, c.plaintiff from legaldocuments d, legalcases c
+where d.caseID = c.caseID and d.visibility = 1;
+
+select * from allLegalDocs;
 
 
+-- 5. view their own cases
+create or replace view myCases as 
+select caseID, plaintiff, lastDateOfActivity, flair, dateOfFiling, duration, status, ClientID, CFirstName, CLastName, CEmailID, isClient, CCity from allCases 
+where LawyerID = "A21s9n5a5A";
+
+select * from myCases;
+
+-- 6. search for cases using flair, client details, etc. 
+-- search using flair
+select * from allCases
+where flair = "Tenant Law";
+-- search using client's last name
+select * from allCases 
+where CLastName = "Brady";
+-- sort all cases by client's city
+select * from allCases 
+order by CCity;
+-- search for all cases of a particular lawyer
+select * from allCases
+where LLastName = "Griffin";
 
 
+-- CUSTOMER/CLIENT
+-- 'I21p5a6t2C', 'MacKensie', 'Trevor', 'Crosby', '1987-04-27', '13540', 'arcu@necmetus.edu', '9729651309', 'Ap #335-2862 Curae; St.', 'Stargard Szczeciński', '80461', 'ZP', '1'
+
+-- 1. View their personal details. 
+create or replace view myDetailsClient as
+select * from individualclients
+where userID = "I21p5a6t2C";
+
+select * from myDetailsClient;
+
+-- 2. view/ add events
+CREATE OR REPLACE VIEW myEventsClient AS
+select * from calendar
+where userID = "I21p5a6t2C";
+
+select * from myEventsClient;
+
+-- 3. View case details of all their cases
+create or replace view allMyCasesClient as 
+select h.caseID, c.plaintiff, c.lastDateOfActivity, c.flair, c.dateOfFiling, c.duration, c.status, l.userID as LawyerID, l.firstName as LFirstName, l.lastName as LLastName, l.emailID as LEmailID, l.positionAtFirm, l.specialization, l.city as LCity, o.oppositionID, o.firstName as OFirstName, o.lastName as OLastName from lawyer l, handles h, legalcases c, hasa ch, individualclients ic, opposition o, against a
+where l.userID = h.userID and h.caseID = c.caseID and ch.userID = ic.userID and a.oppositionID = o.oppositionID and a.caseID = c.caseID;
+
+select * from allMyCasesClient; 
+
+-- 4. View all bills 
+create or replace view myBillsClient as 
+select f.transactionID, f.dateOfPayment, f.description, f.amount, c.caseID, c.flair, c.status from financialtransactions f, invest i, hasa h, legalCases c
+where f.transactionID = i.transactionid and i.caseID = h.caseID and h.caseID = c.caseID and h.userID = "I21p5a6t2C";
+
+select * from myBillsClient;
+
+-- Lawyer
+
+-- View events (such as current court hearings related to ongoing cases).
+CREATE OR REPLACE VIEW LawyerEvents AS
+select * from calendar
+where userID = "A21a0f5x5m";
+
+-- View case details of all their cases. **** Take userID INPUT. ****
+CREATE OR REPLACE VIEW LawyerCases AS
+select legalcases.caseID, plaintiff, lastDateOfActivity, flair, dateOfFiling, duration, legalcases.status 
+from handles inner join legalcases 
+on legalcases.caseID=handles.caseID and handles.userID="A21a0f5x5m";
+
+-- View their personal details (financial history, track record).
+create or replace view LawyerDeets as 
+select * from Lawyer where userId="A21a0f5x5m";
+
+-- View basic details of peers (not salary).
+create or replace view otherlawyers as
+select firstname, lastname, emailId, specialization, experience, casesLost, casesSettled, avgTimePerCase, clientRating from lawyer where userId="A21a0f5x5m";
 
 
+-- View allowed documents related to any case of the law firm.
+create or replace view visibleDocs as 
+select d.docID, d.createdOn, d.dateLastModified, d.type, c.caseID, c.lastdateofactivity, c.flair, c.status, c.plaintiff from legaldocuments d, legalcases c
+where d.caseID = c.caseID and d.visibility = 1;
 
 
+-- View data of all their clients.
+CREATE OR REPLACE VIEW IndividualsAsClients AS
+select * from individualclients where userID in (
+select hasa.userID 
+from handles inner join Lawyer 
+on handles.userID=lawyer.userID and lawyer.userID="A21a0f5x5m" 
+inner join hasa 
+on hasa.caseID=handles.caseID);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+CREATE OR REPLACE VIEW ComapnyClients AS
+select * from clientcompanies where userID in (
+select hasa.userID 
+from handles inner join Lawyer 
+on handles.userID=lawyer.userID and lawyer.userID="A21a0f5x5m" 
+inner join hasa 
+on hasa.caseID=handles.caseID);
 
 
