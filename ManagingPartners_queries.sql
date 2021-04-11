@@ -5,14 +5,14 @@ create or replace view myManagingPartner as
 select * from OtherStaff
 where userID = "O21a0b2d6K";
 
-select * from myDetailsStaff;
+select * from myManagingPartner;
 
 -- 2. view/ add events
-CREATE OR REPLACE VIEW myEventsStaff AS
+CREATE OR REPLACE VIEW myEventsManagement AS
 select * from Calendar
 where userID = "O21a0b2d6K";
 
-select * from myEventsStaff;
+select * from myEventsManagement;
 
 -- 3. view/update all financial transactions in the firm
 CREATE OR REPLACE VIEW allFinancialTrans AS
@@ -20,10 +20,17 @@ select * from FinancialTransactions ;
 
 select * from allFinancialTrans;
 
--- 4. view/update all financial transactions in the firm
-CREATE OR REPLACE VIEW ChooseLawyer AS
-Select * from Lawyer where userID in
-(select userID, round(casesWon/casesLost) as Ratio from Lawyer);
+-- 4. Choose Lawyer on the basis of win/loss ratio
+CREATE OR REPLACE VIEW ChooseLawyerRatio AS
+Select *  From Lawyer where round(casesWon/casesLost) in
+(Select max(Ratio) from
+(select userID, round(casesWon/casesLost) as Ratio from Lawyer) as latest);
 
-select * from ChooseLawyer;
+select * from ChooseLawyerRatio;
 
+-- 5. Choose lawyer on the basis of rating
+CREATE OR REPLACE VIEW ChooseLawyerRating AS
+Select Distinct userID, firstName, lastName From Lawyer  where clientRating in 
+(Select max(clientRating) from Lawyer) limit 1;
+
+select * From ChooseLawyerRating;
