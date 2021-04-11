@@ -2971,4 +2971,7 @@ create or replace view BestSuitedLawyer as
 select lawyer.firstname, lawyer.lastname, lawyer.userID from lawyer 
 where specialization="Civil" and experience >= 0 and avgTimePerCase <= 89 and charges <= 30000 and clientRating >= 3 and casesWon div casesLost >= 0;
 
+update lawyer
+set casesWon=casesWon+1
+where userID="A21a0f5x5M";
 
