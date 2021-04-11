@@ -2966,4 +2966,9 @@ where f.transactionID = i.transactionid and i.caseID = h.caseID and h.caseID = c
 
 select * from myBillsClient;
 
+-- Best suited lawyer from customer.	 
+create or replace view BestSuitedLawyer as
+select lawyer.firstname, lawyer.lastname, lawyer.userID from lawyer 
+where specialization="Civil" and experience >= 0 and avgTimePerCase <= 89 and charges <= 30000 and clientRating >= 3 and casesWon div casesLost >= 0;
+
 
