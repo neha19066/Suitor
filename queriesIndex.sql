@@ -353,6 +353,9 @@ select * from allFinancialTrans;
 create index lawyer_city on Lawyer(city);
 create index lawyer_lastName on Lawyer(LastName);
 create index lawyer_charges on Lawyer(cHARGES);
+create index lawyer_time on Lawyer(avgTimePerCase);
+create index lawyer_exp on Lawyer(experience);
+create index lawyer_rating on Lawyer(clientRating);
 show index from lawyer;
 
 create index doc_visibility on LegalDocuments(visibility);
