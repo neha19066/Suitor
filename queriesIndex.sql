@@ -201,7 +201,7 @@ on legalcases.caseID=handles.caseID and handles.userID="A21a0f5x5m";
 select * from LawyerCases;
 
 -- update cases won/ increment by 1
-update lawyer
+update lawyerdeets
 set casesWon = casesWon+1
 where userID = "A21a0f5x5M";
 
