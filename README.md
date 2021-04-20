@@ -123,7 +123,9 @@ The application manages data of various aspects of the firm, like details of law
 | clientRating | mediumint | Not null, check between 0 and 10 |
 | _calendarID_ | char(10) | Not null, Foreign Key referenced by Calendar |
 
-**LegalCases -------------------------------------------------------------------------------------**
+**LegalCases** 
+
+**-------------------------------------------------------------------------------------**
 
 | Variable | Datatype | Integrity Constraints |
 | --- | --- | --- |
@@ -170,7 +172,6 @@ The application manages data of various aspects of the firm, like details of law
 | budget | mediumint | Not null |
 | companyName | varchar(256) | Not null |
 | gstIN | varchar(11) |
- |
 | calendarID | char(10) | Foreign Key referenced by Calendar |
 
 **CourtHearing**
@@ -445,13 +446,6 @@ Following are the search key attributes for index tables of different tables bas
 | Invest | transactionID, userID |
 | Makes | transactionID, userID |
 | IndividualClients | userID |
- 
-## **WOW PART of the Project**
-
-1. A fully functional, interactive and aesthetic web application.
-2. Functionality to find best-suited lawyers for customers based on their preferences and requirements taken as input.
-3. Implemented indexing using the _create index_ command in MySQL for efficient query handling.
-4. Implemented a total of 23 MySQL queries through embedded SQL and UI.
 
 ## LINKS
 
